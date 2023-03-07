@@ -1,0 +1,27 @@
+{
+  "recipes": [
+    {
+      "title": "Daal",
+      "ingredients": [
+        "toor daal",
+        "oil",
+        "onion",
+        "jeera"
+      ],
+      "method": "First wash the daal a couple of times and fill it up with water and cook in a rice cooker for about 20 mins/ 6-7 whistles...",
+      "cookingTime": "30 minutes",
+      "id": 2
+    },
+    {
+      "title": "Mango slushie",
+      "ingredients": [
+        "mangoes",
+        "ice cubes",
+        "sugar"
+      ],
+      "method": "first slice the mangoes up roughly and blend them finely. Then put the ice cubes in the blender and blend for a couple of seconds. Add sugar and blend again..",
+      "cookingTime": "10 minutes",
+      "id": 3
+    }
+  ]
+}

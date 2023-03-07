@@ -1,0 +1,45 @@
+.create {
+  max-width: 500px;
+  margin: 10px auto;
+}
+.create label{
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.create p{
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #444;
+}
+.create span{
+  font-size: 0.8em;
+}
+.create em:first-child::before {
+  content: " ";
+}
+.create em::before {
+  content: ", ";
+}
+
+.create h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.create label .ing{
+  display: flex;
+  gap: 10px;
+}
+.create input{
+  outline: none;
+}
+.create input:focus{
+  border: 1px solid #58249c;
+}
+
+@media (max-width: 700px){
+  .create{
+    max-width: 350px;
+  }
+}

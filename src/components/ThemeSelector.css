@@ -1,0 +1,33 @@
+.theme-wrapper{
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: inherit;
+}
+.theme-selector {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.theme-buttons div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 2px solid #444;
+}
+.mode-toggle {
+  margin-right: auto;
+}
+.mode-toggle img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.recipe {
+  max-width: 1200px;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  box-shadow: 3px 3px 3px rgba(0,0,0, 0.05);
+}
+.recipe ul {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 0;
+}
+.recipe li {
+  list-style-type: none;
+  margin-right: 10px;
+  color: #777;
+}
+.recipe li::after {
+  content: ",";
+}
+.recipe li:last-child::after {
+  content: ".";
+}
+.method {
+  text-align: left;
+  line-height: 1.5em;
+}
+@media (max-width: 700px){}

@@ -1,0 +1,28 @@
+.searchbar {
+  display: flex;
+  gap: 10px;
+  margin: 0 20px;
+  align-items: center;
+}
+
+.label {
+  color: #fff;
+}
+
+.searchbar input{
+  font-family: inherit;
+  border-radius: 25px;
+  font-size: 0.9em;
+  outline: none;
+  background: #fff;
+}
+.searchbar input:focus{
+  border:1px black solid;
+}
+
+@media (max-width: 550px){
+  .searchbar input{
+    border-radius: 5px;
+    font-size: 0.8em;
+  }
+}
